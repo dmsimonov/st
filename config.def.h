@@ -5,7 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font:style=Regular:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Iosevka Nerd Font:style=Medium:pixelsize=15:antialias=true:autohint=true";
+static char *font2[] = {
+	"Symbola:pixelsize=15:antialias=true:autohint=true",
+/*     "Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+/*     "Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+};
+
 static int borderpx = 2;
 
 /*
